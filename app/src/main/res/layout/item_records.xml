@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/llMain">
+
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:text="@string/name" />
+
+
+    <TextView
+        android:id="@+id/tvItemEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+
+        android:paddingStart="10dp"
+        android:paddingEnd="5dp"
+        android:text="@string/youremail_gmail_com" />
+
+    <ImageButton
+        android:id="@+id/ibEdit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/ibDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/ic_menu_delete"
+        android:verticalScrollbarPosition="defaultPosition" />
+</LinearLayout>
